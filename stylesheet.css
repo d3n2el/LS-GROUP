@@ -1,25 +1,22 @@
 :root {
-    --color-primary: #166534; 
-    --color-primary-dark: #14532d; 
-    --color-text-dark: #1f2937; 
-    --color-text-medium: #4b5563; 
-    --color-text-light: #d1d5db; 
+    --color-primary: #166534;
+    --color-primary-dark: #14532d;
+    --color-text-dark: #1f2937;
+    --color-text-medium: #4b5563;
+    --color-text-light: #d1d5db;
     --color-bg-light: #f9fafb;
     --color-bg-white: #ffffff;
-    --color-border: #d1d5db; 
-    --color-placeholder: #64748b; 
-    --color-placeholder-bg: #e2e8f0; 
-
+    --color-border: #d1d5db;
+    --color-placeholder: #64748b;
+    --color-placeholder-bg: #e2e8f0;
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
     --spacing-xxl: 5rem;
-
     --max-width-container: 1280px;
 }
-
 
 body {
     font-family: 'Inter', sans-serif;
@@ -72,7 +69,7 @@ a {
 }
 
 .header .logo {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--color-text-dark);
 }
@@ -82,14 +79,14 @@ a {
 }
 
 .header .nav-desktop {
-    display: none; /* hidden by default, flex on md */
+    display: none;
     align-items: center;
-    gap: 2rem; 
+    gap: 2rem;
 }
 
 .header .nav-desktop a {
-    color: var(--color-text-dark); 
-    font-weight: 600; 
+    color: var(--color-text-dark);
+    font-weight: 600;
     transition: color 0.3s ease;
 }
 
@@ -98,12 +95,12 @@ a {
 }
 
 .header .cta-button {
-    display: none; /* hidden by default, inline-block on md */
+    display: none;
     background-color: var(--color-primary);
     color: var(--color-bg-white);
     font-weight: 600;
-    padding: 0.5rem 1.25rem; 
-    border-radius: 0.5rem; 
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.5rem;
     transition: background-color 0.3s ease;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
@@ -113,16 +110,100 @@ a {
 }
 
 .header .mobile-menu-button {
-    display: block; 
+    display: block;
 }
 
 .header .mobile-menu-button svg {
-    width: 1.5rem; 
-    height: 1.5rem; 
+    width: 1.5rem;
+    height: 1.5rem;
     color: var(--color-text-dark);
 }
 
-@media (min-width: 768px) { 
+.mobile-menu {
+    display: none;
+    background-color: var(--color-bg-white);
+    border-top: 1px solid #e5e7eb;
+}
+
+.mobile-menu.active {
+    display: block;
+}
+
+.mobile-menu nav {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-sm);
+    gap: var(--spacing-sm);
+}
+
+.mobile-menu nav a {
+    color: var(--color-text-medium);
+    padding: 0.5rem 0;
+    transition: color 0.3s ease;
+}
+
+.mobile-menu nav a:hover {
+    color: var(--color-primary);
+}
+
+.mobile-menu .cta-button-mobile {
+    background-color: var(--color-primary);
+    color: var(--color-bg-white);
+    font-weight: 600;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.mobile-menu .cta-button-mobile:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.hero-section {
+    position: relative;
+    height: 70vh;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-bg-white);
+    background-image: url('https://images.unsplash.com/photo-1614027829432-4a415337a348?q=80&w=2970&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 0 var(--spacing-sm);
+}
+
+.hero-content h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.hero-content p {
+    font-size: 1.125rem;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--color-text-light);
+}
+
+@media (min-width: 768px) {
     .header {
         padding-top: var(--spacing-md);
         padding-bottom: var(--spacing-md);
@@ -135,5 +216,15 @@ a {
     }
     .header .mobile-menu-button {
         display: none;
+    }
+    .mobile-menu {
+        display: none !important;
+    }
+
+    .hero-content h1 {
+        font-size: 3.75rem;
+    }
+    .hero-content p {
+        font-size: 1.25rem;
     }
 }
