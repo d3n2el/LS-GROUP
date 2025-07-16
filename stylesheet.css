@@ -256,6 +256,61 @@ a {
     margin-top: 0.5rem;
     font-size: 1.125rem;
 }
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.service-card {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.service-card .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.service-card .icon-wrapper svg {
+    width: 3rem;
+    height: 3rem;
+    color: var(--color-primary);
+}
+
+.service-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.brands-section {
+    padding-top: var(--spacing-xxl);
+    padding-bottom: var(--spacing-xxl);
+    background-color: var(--color-bg-white);
+}
+.brands-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.brand-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+.brand-logo:hover {
+    filter: grayscale(0%);
+}
 @media (min-width: 768px) {
     .header {
         padding-top: var(--spacing-md);
@@ -282,6 +337,19 @@ a {
     }
     .about-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-header h2 {
+        font-size: 2.25rem;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .brands-grid {
+        grid-template-columns: repeat(3, 1fr);
+    
     }
 }
 
