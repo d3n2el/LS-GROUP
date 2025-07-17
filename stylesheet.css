@@ -440,6 +440,46 @@ a {
     margin-top: 0.5rem;
 }
 
+.language-switcher {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1rem; 
+}
+
+.language-switcher-mobile {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.lang-button {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-medium);
+    border: 1px solid var(--color-border);
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.lang-button:hover {
+    background-color: var(--color-border);
+    color: var(--color-text-dark);
+}
+
+.lang-button.active {
+    background-color: var(--color-primary);
+    color: var(--color-bg-white);
+    border-color: var(--color-primary);
+}
+
+.lang-button.active:hover {
+    background-color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+}
+
 @media (min-width: 768px) {
     .header {
         padding-top: var(--spacing-md);
