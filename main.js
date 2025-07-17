@@ -76,3 +76,18 @@ langButtonsMobile.forEach(button => {
 });
 
 setLanguage('en'); 
+// looked and tried different methods for these animations but observer is just better straight up.
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+
+        }
+    });
+}, {
+    threshold: 0.1 // make vis when 10%
+});
+
+// sellect all elements and tell whgat to do with each
+const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
+elementsToAnimate.forEach(el => observer.observe(el));
