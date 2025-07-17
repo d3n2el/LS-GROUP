@@ -67,6 +67,17 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+.header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    max-width: none; 
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .header .logo {
     font-size: 1.5rem;
@@ -294,8 +305,9 @@ a {
 .brands-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 0.1rem;
     align-items: center;
+    justify-items: center;
 }
 
 .brand-logo {
@@ -409,6 +421,25 @@ a {
 .contact-form button:hover {
     background-color: var(--color-primary-dark);
 }
+
+.footer {
+    background-color: var(--color-text-dark);
+    color: var(--color-text-medium);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 0;
+    color: inherit;
+}
+
+.footer .small-text {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
 @media (min-width: 768px) {
     .header {
         padding-top: var(--spacing-md);
@@ -442,11 +473,12 @@ a {
     }
 
     .services-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
     }
 
     .brands-grid {
-        grid-template-columns: repeat(3, 1fr);
-    
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.5rem;
     }
 }
