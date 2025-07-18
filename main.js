@@ -81,7 +81,8 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('visible');
-
+        } else{
+            entry.target.classList.remove('visible');
         }
     });
 }, {
@@ -91,3 +92,11 @@ const observer = new IntersectionObserver((entries) => {
 // sellect all elements and tell whgat to do with each
 const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
 elementsToAnimate.forEach(el => observer.observe(el));
+//staggered animations for children
+const animatedContainers = document.querySelectorAll('.services-grid, .brands-grid');
+animatedContainers.forEach(container => {
+    const children = container.querySelectorAll('.service-card, .brand-logo');
+    children.forEach((child, index) => {
+        child.style.setProperty('--animation-delay', `${index * 0.1}s`);
+    });
+});
