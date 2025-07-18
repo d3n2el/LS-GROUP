@@ -420,6 +420,7 @@ a {
     filter: grayscale(0%); 
     transform: scale(1.05);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
 }
 .contact-section {
     padding-top: var(--spacing-xxl);
@@ -622,5 +623,97 @@ a {
         gap: 0.5rem;
     }
 }
+/* now i will add all the css logic and styling i think I will need, only then I will work with js to make things actually work*/
+.brand-details-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-bg-white);
+    padding: var(--spacing-lg);
+    border-radius: 0.75rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.08);
+    z-index: 100; 
+    max-width: 90%;
+    width: 600px; 
+    max-height: 90vh; /* limit x scrollable content*/
+    overflow-y: auto; /* enable for scrolling when needed*/
 
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    transform: translate(-50%, -45%); /* upward shift for animation*/
+}
+
+.brand-details-modal.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%); 
+}
+
+.brand-details-modal .close-button {
+    position: absolute;
+    top: var(--spacing-sm);
+    right: var(--spacing-sm);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    color: var(--color-text-dark);
+}
+
+.brand-details-modal .close-button svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.brand-details-modal .modal-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.brand-details-modal .modal-brand-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; 
+    object-fit: contain;
+    margin-bottom: var(--spacing-sm);
+}
+
+.brand-details-modal h3 {
+    font-size: 1.875rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text-dark); 
+}
+
+.brand-details-modal p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-text-medium);
+    margin-bottom: var(--spacing-md);
+}
+
+.brand-details-modal .cta-button-small {
+    background-color: var(--color-primary);
+    color: var(--color-bg-white);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.brand-details-modal .cta-button-small:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.cta-button-small svg {
+    width: 1rem;
+    height: 1rem;
+}
 
