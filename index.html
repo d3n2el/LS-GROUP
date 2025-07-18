@@ -170,7 +170,19 @@
             <p class="small-text">P.IVA 01234567890</p>
         </div>
     </footer>
-
+<!-- code for the way I want to handle brands-->
+<div id="brand-modal-overlay" class="mobile-menu-overlay"></div> <div id="brand-details-modal" class="brand-details-modal">
+    <button id="close-brand-modal-button" class="close-button">
+        <i data-lucide="x"></i> </button>
+    <div class="modal-content">
+        <img id="modal-brand-image" src="" alt="" class="modal-brand-image">
+        <h3 id="modal-brand-name"></h3>
+        <p id="modal-brand-description"></p>
+        <a id="modal-brand-website" href="#" target="_blank" rel="noopener noreferrer" class="cta-button-small">
+            <span data-en="Visit Website" data-it="Visita Sito Web" data-ru="Посетить сайт">Visit Website</span> <i data-lucide="external-link"></i>
+        </a>
+        </div>
+</div>
     <script src="main.js"></script>
 </body>
 </html>
