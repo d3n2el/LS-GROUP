@@ -145,8 +145,8 @@ const brandData = {
         website: "https://www.baratta-kitchens.com", 
         modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Baratta+Kitchens"
     },
-    "sintesiplast": {
-        name: "Sintesiplast",
+    "sintesyplast": {
+        name: "Sintesyplast",
         description: "Sintesyplast S.R.L. is an experienced company specializing in third-party plastic injection molding and processing. They operate from two facilities covering over 10,000 sq. meters, offering efficient service and consultation. Their capabilities include handling diverse needs from small to large volume orders using 24 injection presses (65 to 1600 tons) for a wide range of thermoplastics. Additionally, they provide assembly, packaging, and labeling services upon request and produce technical shelving and outdoor canopies under their UP STAR ITALIA brand.",
         website: "https://www.sintesyplast.it/", 
         modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Sintesyplast"
@@ -159,7 +159,7 @@ const brandData = {
     },
     "grandimpianti": {
         name: "Grandimpianti",
-        description: "Placeholder",
+        description: "Grandimpianti is a company with over 50 years of experience in professional fabric treatment, offering a complete range of equipment for water washing, drying, and ironing, along with innovative solutions like TheMind.Cloud, Wavy, Gentlewash, My Clean Clean, and GiSuite to optimize laundry management across various sectors.",
         website: "https://www.grandimpianti.com/",
         modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Grandimpianti",
     },
