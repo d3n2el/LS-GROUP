@@ -171,7 +171,7 @@ a {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 98;
+    z-index: 40;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
@@ -622,6 +622,22 @@ a {
         grid-template-columns: repeat(5, 1fr);
         gap: 0.5rem;
     }
+}
+.brand-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 98;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.brand-modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
 }
 /* now i will add all the css logic and styling i think I will need, only then I will work with js to make things actually work*/
 .brand-details-modal {

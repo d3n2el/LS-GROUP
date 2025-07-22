@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/lucide-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.js"></script> <!-- Istg lucide icons gave me so many problems, at the end after trying
+    100 different things I found something that works-->
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -114,16 +115,16 @@
                     <p data-en="We are proud to partner with Italy's leading appliance manufacturers." data-it="Siamo orgogliosi di collaborare con i principali produttori italiani di elettrodomestici." data-ru="Мы гордимся партнерством с ведущими итальянскими производителями бытовой техники.">Siamo orgogliosi di collaborare con i principali produttori...</p>
                 </div>
                 <div class="brands-grid">
-                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=Krupps" alt="Brand Logo 1" class="brand-logo animate-on-scroll">
-                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=Coldline" alt="Brand Logo 2" class="brand-logo animate-on-scroll">
-                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=moduline" alt="Brand Logo 3" class="brand-logo animate-on-scroll">
-                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=Prismafood" alt="Brand Logo 4" class="brand-logo animate-on-scroll">
-                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=the+nice+kitchen" alt="Brand Logo 5" class="brand-logo animate-on-scroll">
-                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=tecnosteel" alt="Brand Logo 6" class="brand-logo animate-on-scroll">
-                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=Baratta+Kitchens" alt="Brand Logo 7" class="brand-logo animate-on-scroll">
-                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=sintesiplast" alt="Brand Logo 8" class="brand-logo animate-on-scroll">
-                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=Forno+Max" alt="Brand Logo 9" class="brand-logo animate-on-scroll">
-                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=Italia+Chef" alt="Brand Logo 10" class="brand-logo animate-on-scroll">
+                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=Krupps" alt="Krupps" class="brand-logo animate-on-scroll">
+                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=Coldline" alt="Coldline" class="brand-logo animate-on-scroll">
+                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=moduline" alt="Moduline" class="brand-logo animate-on-scroll">
+                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=Prismafood" alt="Prismafood" class="brand-logo animate-on-scroll">
+                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=the+nice+kitchen" alt="The Nice Kitchen" class="brand-logo animate-on-scroll">
+                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=tecnosteel" alt="Tecnosteel" class="brand-logo animate-on-scroll">
+                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=Baratta+Kitchens" alt="Baratta Kitchens" class="brand-logo animate-on-scroll">
+                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=sintesyplast" alt="sintesiplast" class="brand-logo animate-on-scroll">
+                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=RS+Tecnology" alt="RS Tecnology" class="brand-logo animate-on-scroll">
+                    <img src="https://placehold.co/200x100/e2e8f0/64748b?text=Grandimpianti" alt="Grandimpianti" class="brand-logo animate-on-scroll">
                 </div>
             </div>
         </section>
@@ -140,7 +141,7 @@
                         <ul>
                             <li>
                                 <i data-lucide="map-pin"></i>
-                                <span><strong>Cucina Eccellenza S.r.l.</strong><br>Via Postumia, 100<br>31044 Montebelluna (TV), Italy</span>
+                                <span><strong>LS Group S.r.l.</strong><br>Via Postumia, 100<br>31044 Montebelluna (TV), Italy</span>
                             </li>
                             <li class="align-center">
                                 <i data-lucide="phone"></i>
@@ -148,7 +149,7 @@
                             </li>
                             <li class="align-center">
                                 <i data-lucide="mail"></i>
-                                <a href="mailto:partner@cucinaeccellenza.com">partner@cucinaeccellenza.com</a>
+                                <a href="mailto:sergei@lsgroupsrl.com">sergei@lsgroupsrl.com</a>
                             </li>
                         </ul>
                     </div>
@@ -171,7 +172,7 @@
         </div>
     </footer>
 <!-- code for the way I want to handle brands-->
-<div id="brand-modal-overlay" class="mobile-menu-overlay"></div> <div id="brand-details-modal" class="brand-details-modal">
+<div id="brand-modal-overlay" class="brand-modal-overlay"></div> <div id="brand-details-modal" class="brand-details-modal">
     <button id="close-brand-modal-button" class="close-button">
         <i data-lucide="x"></i> </button>
     <div class="modal-content">

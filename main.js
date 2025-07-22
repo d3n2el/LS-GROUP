@@ -124,7 +124,7 @@ const brandData = {
     "prismafood": {
         name: "Prismafood",
         description: "Prismafood is renowned for producing high-quality pizza ovens, dough mixers, and other catering equipment. They combine traditional Italian craftsmanship with modern technology to deliver durable and reliable products.",
-        website: "https://www.prismafood.it",
+        website: "https://www.prismafood.com",
         modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Prismafood"
     },
     "thenicekitchen": {
@@ -136,7 +136,7 @@ const brandData = {
     "tecnosteel": {
         name: "Tecnosteel",
         description: "Tecnosteel manufactures stainless steel furniture and equipment for professional kitchens, known for its durability, hygiene, and ergonomic design. They provide custom solutions for various catering environments.",
-        website: "https://www.tecnosteel.it", 
+        website: "http://www.tecnosteelsrl.it/", 
         modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=tecnosteel"
     },
     "barattakitchens": {
@@ -145,7 +145,24 @@ const brandData = {
         website: "https://www.baratta-kitchens.com", 
         modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Baratta+Kitchens"
     },
-
+    "sintesiplast": {
+        name: "Sintesiplast",
+        description: "Sintesyplast S.R.L. is an experienced company specializing in third-party plastic injection molding and processing. They operate from two facilities covering over 10,000 sq. meters, offering efficient service and consultation. Their capabilities include handling diverse needs from small to large volume orders using 24 injection presses (65 to 1600 tons) for a wide range of thermoplastics. Additionally, they provide assembly, packaging, and labeling services upon request and produce technical shelving and outdoor canopies under their UP STAR ITALIA brand.",
+        website: "https://www.sintesyplast.it/", 
+        modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Sintesyplast"
+    },
+    "rstecnology": {
+        name: "RS Tecnology",
+        description: "RS Tecnology specializes in innovative food processing and thermal treatments, leveraging magnetic induction technology for enhanced energy efficiency and precise cooking. Their 'RS series' offers a range of cooking solutions from 20 to 250 liters, including models like the RS-20, RS-40, RS-60, RS-100, RS-150, and RS-250. Additionally, they provide sterilizers within their 'ST series', featuring the ST-60 and ST-130 models.",
+        website: "https://rstecnology.it/",
+        modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=RS+Tecnology"
+    },
+    "grandimpianti": {
+        name: "Grandimpianti",
+        description: "Placeholder",
+        website: "https://www.grandimpianti.com/",
+        modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Grandimpianti",
+    },
 };
 
 const brandLogos = document.querySelectorAll('.brand-logo');
