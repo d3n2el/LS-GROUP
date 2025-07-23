@@ -110,8 +110,12 @@ const brandData = {
             it: "Krupps è un produttore italiano leader di lavastoviglie professionali, noto per la sua innovazione e affidabilità nel settore dell'ospitalità. I loro prodotti combinano tecnologia all'avanguardia con un design robusto per offrire risultati di pulizia superiori.",
             ru: "Krupps — ведущий итальянский производитель профессиональных посудомоечных машин, известный своими инновациями и надежностью в гостиничном секторе. Их продукция сочетает в себе передовые технологии и прочный дизайн для достижения превосходных результатов очистки."
         },
-        website: "https://www.krupps.it",
-        modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Krupps" 
+        website: {
+            en: "https://www.krupps.com/en/",
+            it: "https://www.krupps.com/",
+            ru: "https://www.krupps.com/ru/"
+        },
+        modalImage: "https://cosentinorappresentanze.com/images/LogoKRUPPS.png" 
     },
     "coldline": {
         name: "Coldline",
@@ -120,8 +124,12 @@ const brandData = {
             it: "Coldline è specializzata in soluzioni di refrigerazione professionali e offre un'ampia gamma di abbattitori, congelatori e celle frigorifere. L'azienda è impegnata nell'efficienza energetica e nelle tecnologie innovative per la conservazione degli alimenti.",
             ru: "Coldline специализируется на профессиональных решениях в области охлаждения, предлагая широкий ассортимент шоковых охладителей, морозильных камер и холодильных камер. Компания стремится к энергоэффективности и использованию инновационных технологий для хранения продуктов питания.",
         },
-        website: "https://www.coldline.it",
-        modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Coldline"
+        website: {
+            en: "https://coldline.it/en",
+            it: "https://coldline.it/it",
+            ru: "https://coldline.it/ru"
+        },
+        modalImage: "https://coldline.it/Logo%20e%20Favicon/image-thumb__250__logo/logo.webp"
     },
     "moduline": {
         name: "Moduline",
@@ -130,8 +138,12 @@ const brandData = {
             it: "Moduline offre soluzioni avanzate per la cottura e la conservazione degli alimenti destinate alle cucine professionali, con particolare attenzione alla precisione, alla sicurezza e all'efficienza. Le loro attrezzature innovative aiutano gli chef a mantenere la qualità degli alimenti e a ottimizzare i flussi di lavoro.",
             ru:"Moduline предлагает передовые решения для приготовления и хранения пищи для профессиональных кухонь, уделяя особое внимание точности, безопасности и эффективности. Их инновационное оборудование помогает поварам поддерживать качество продуктов и оптимизировать рабочие процессы."
         },
-            website: "https://www.moduline.it",
-        modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=moduline"
+            website: {
+            en: "https://www.moduline.it/en/",
+            it: "https://www.moduline.it/",
+            ru: "https://www.moduline.it/en/"
+        },
+        modalImage: "https://www.moduline.it/wp-content/uploads/2024/06/Logo-moduline-.png"
     },
     "prismafood": {
         name: "Prismafood",
@@ -140,7 +152,11 @@ const brandData = {
             it:"Prismafood è rinomata per la produzione di forni per pizza, impastatrici e altre attrezzature per la ristorazione di alta qualità. L'azienda combina la tradizionale maestria artigianale italiana con la tecnologia moderna per offrire prodotti durevoli e affidabili.",
             ru: "Prismafood славится производством высококачественных печей для пиццы, тестомесов и другого оборудования для общественного питания. Компания сочетает традиционное итальянское мастерство с современными технологиями, чтобы создавать прочные и надежные продукты."
         },
-            website: "https://www.prismafood.com",
+            website: {
+            en: "https://www.prismafood.com/en",
+            it: "https://www.prismafood.com/it",
+            ru: "https://www.prismafood.com/ru"
+        },
         modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Prismafood"
     },
     "thenicekitchen": {
@@ -150,8 +166,12 @@ const brandData = {
             it: "The Nice Kitchen offre una gamma di soluzioni innovative ed eleganti per la cucina, che uniscono estetica e funzionalità. Soddisfano le esigenze culinarie moderne con dispositivi progettati secondo criteri di compatibilità dimensionale, estetica e tecnologica",
             ru: "Nice Kitchen предлагает ряд инновационных и стильных решений для кухни, сочетающих эстетическую привлекательность с высокой функциональностью. Они удовлетворяют современные кулинарные потребности благодаря умно спроектированной бытовой технике.",
         },
-        website: "https://www.thenicekitchen.com", 
-        modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=the+nice+kitchen"
+        website: {
+            en: "https://www.thenicekitchen.com/en",
+            it: "https://www.thenicekitchen.com/it",
+            ru: "https://www.thenicekitchen.com/en"
+        }, 
+        modalImage: "https://www.thenicekitchen.com/TNK/Logo/Logo%20Homepage_1.svg"
     },
     "tecnosteel": {
         name: "Tecnosteel",
@@ -161,8 +181,12 @@ const brandData = {
             ru: "Tecnosteel производит мебель и оборудование из нержавеющей стали для профессиональных кухонь, известное своей прочностью, гигиеничностью и эргономичным дизайном. Компания предлагает индивидуальные решения для различных объектов общественного питания.",
 
         },
-            website: "http://www.tecnosteelsrl.it/", 
-        modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=tecnosteel"
+            website: {
+            en: "http://www.tecnosteelsrl.it/en/",
+            it: "http://www.tecnosteelsrl.it/",
+            ru: "http://www.tecnosteelsrl.it/en/"
+        },
+        modalImage: "http://www.tecnosteelsrl.it/wp-content/themes/tecnosteel/img/logo_header.svg"
     },
     "barattakitchens": {
         name: "Baratta Kitchens",
@@ -171,8 +195,12 @@ const brandData = {
             it: "Baratta Kitchens è sinonimo di design e maestria artigianale italiana nel settore delle cucine su misura. L'azienda crea cucine personalizzate che sono allo stesso tempo belle e altamente funzionali, realizzate su misura in base alle esigenze individuali dei clienti.",
             ru: "Baratta Kitchens — это синоним индивидуального дизайна и мастерства итальянских кухонь. Они создают индивидуальные кухонные интерьеры, которые являются одновременно красивыми и высокофункциональными, адаптированными к индивидуальным потребностям клиентов."
         },
-            website: "https://www.baratta-kitchens.com", 
-        modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Baratta+Kitchens"
+            website:{
+            en: "https://baratta-kitchens.com/en/",
+            it: "https://baratta-kitchens.com/",
+            ru: "https://baratta-kitchens.com/en/"
+        }, 
+        modalImage: "https://baratta-kitchens.com/wp-content/uploads/2023/09/Logo-Baratta-r.png.avif"
     },
     "sintesyplast": {
         name: "Sintesyplast",
@@ -181,7 +209,11 @@ const brandData = {
             it:"Sintesyplast S.R.L. è un'azienda specializzata nello stampaggio e nella lavorazione di materie plastiche per i propri clienti. Le sue capacità includono la gestione di diverse esigenze, da piccoli a grandi volumi di ordini, utilizzando 24 presse a iniezione (da 65 a 1600 tonnellate) per un'ampia gamma di termoplastici. Inoltre, fornisce servizi di assemblaggio, imballaggio ed etichettatura su richiesta e produce scaffalature tecniche e tettoie per esterni con il proprio marchio UP STAR ITALIA.",
             ru:"Sintesyplast S.R.L. — опытная компания, специализирующаяся на литье и переработке пластмасс для третьих сторон. Ее возможности включают в себя удовлетворение разнообразных потребностей от небольших до крупных заказов с использованием 24 литьевых прессов (от 65 до 1600 тонн) для широкого спектра термопластов. Кроме того, по запросу компания предоставляет услуги по сборке, упаковке и маркировке, а также производит технические стеллажи и навесы для улицы под своим брендом UP STAR ITALIA.Sintesyplast S.R.L. — опытная компания, специализирующаяся на литье и переработке пластмасс для третьих сторон. Ее возможности включают в себя удовлетворение разнообразных потребностей от небольших до крупных заказов с использованием 24 литьевых прессов (от 65 до 1600 тонн) для широкого спектра термопластов. Кроме того, по запросу компания предоставляет услуги по сборке, упаковке и маркировке, а также производит технические стеллажи и навесы для улицы под своим брендом UP STAR ITALIA."
         },
-        website: "https://www.sintesyplast.it/", 
+        website: {
+            en: "https://www.sintesyplast.it/",
+            it: "https://www.sintesyplast.it/",
+            ru: "https://www.sintesyplast.it/"
+        },
         modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Sintesyplast"
     },
     "rstecnology": {
@@ -191,8 +223,12 @@ const brandData = {
             it:"RS Tecnology è specializzata in processi innovativi di lavorazione degli alimenti e trattamenti termici, sfruttando la tecnologia a induzione magnetica per una maggiore efficienza energetica e una cottura precisa. La loro “serie RS” offre una gamma di soluzioni di cottura da 20 a 250 litri. Inoltre, forniscono sterilizzatori all'interno della loro “serie ST”.",
             ru:"RS Tecnology специализируется на инновационных технологиях пищевой промышленности и термической обработке, используя технологию магнитной индукции для повышения энергоэффективности и точности приготовления пищи. Их «серия RS» предлагает ряд решений для приготовления пищи объемом от 20 до 250 литров. Кроме того, они предлагают стерилизаторы в рамках своей «серии ST».",
         },
-            website: "https://rstecnology.it/",
-        modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=RS+Tecnology"
+            website: {
+            en: "https://rstecnology.it/home_eng/",
+            it: "https://rstecnology.it/",
+            ru: "https://rstecnology.it/home_eng/"
+        },
+        modalImage: "https://rstecnology.it/wp-content/uploads/2016/05/Logo_RS_1.jpg"
     },
     "grandimpianti": {
         name: "Grandimpianti",
@@ -201,8 +237,12 @@ const brandData = {
             it: "Grandimpianti è un'azienda con oltre 50 anni di esperienza nel trattamento professionale dei tessuti che offre una gamma completa di attrezzature per il lavaggio, l'asciugatura e la stiratura, nonché soluzioni innovative come TheMind.Cloud, Wavy, Gentlewash, My Clean Clean e GiSuite per ottimizzare la gestione delle lavanderie in vari settori.",
             ru: "Grandimpianti — компания с более чем 50-летним опытом в области профессиональной обработки тканей, предлагающая полный спектр оборудования для стирки, сушки и глажки, а также инновационные решения, такие как TheMind.Cloud, Wavy, Gentlewash, My Clean Clean и GiSuite, для оптимизации управления прачечными в различных секторах.",
         },
-        website: "https://www.grandimpianti.com/",
-        modalImage: "https://placehold.co/200x100/e2e8f0/64748b?text=Grandimpianti",
+        website: {
+            en: "https://en.grandimpianti.com/",
+            it: "https://www.grandimpianti.com/",
+            ru: "https://en.grandimpianti.com/"
+        },
+        modalImage: "https://cosentinorappresentanze.com/images/Grandimpianti-Logo.svg",
     },
 };
 
@@ -239,4 +279,3 @@ function closeBrandModal() {
 
 closeBrandModalButton.addEventListener('click', closeBrandModal);
 brandModalOverlay.addEventListener('click', closeBrandModal); 
-
